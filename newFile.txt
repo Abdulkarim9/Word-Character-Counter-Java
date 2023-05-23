@@ -1,0 +1,10 @@
+Learning how to handel file operations in java.
+
+It's important to note that the ability to modify file modes depends on the underlying
+operating system and the user's permissions. 
+
+Additionally, file modes may not be supported on all file systems, 
+particularly on Windows, where file permissions are handled differently.
+
+Make sure to handle exceptions properly when working with file modes, and be aware of
+the operating system-specific behavior and limitations.
