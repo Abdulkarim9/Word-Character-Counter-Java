@@ -17,6 +17,8 @@ public class Main {
                 String[] words = line.split("\\s");
                 wordCount += words.length;
             }
+            
+            reader.close();
         } catch (IOException e) {
             System.out.println("An error occurred!");
             e.printStackTrace();
